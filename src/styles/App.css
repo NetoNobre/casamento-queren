@@ -1,0 +1,153 @@
+/* src/styles/App.css */body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea; /* Cor de fundo geral */color: #2c2c2c; /* Cor de texto padrão */
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; /* Garante que a página ocupe pelo menos a altura da tela */
+}
+
+.main-title {
+  color: #121212; /* Cor do título principal */text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff; /* Cor de fundo para destacar a seção */border-radius: 10px;
+  box-shadow: 0010pxrgba(0, 0, 0, 0.1);
+}
+
+.descriptionp {
+  margin: 0;
+  font-size: 18px; /* Ajustado para maior legibilidade */
+}
+
+.color-samples {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-sample {
+  width: 60px; /* Aumentado o tamanho dos círculos */height: 60px;
+  border-radius: 50%;
+}
+
+.gift-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os cards */
+}
+
+.gift-item {
+  flex: 11calc(33.333% - 40px); /* Exibe 3 cards por linha, com espaçamento */max-width: calc(33.333% - 40px);
+}
+
+.card {
+  background-color: #ffffff; /* Cor de fundo do card */border: 1px solid #acaba9; /* Borda do card */border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0010pxrgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+  border-color: #121212;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.gift-name {
+  margin: 10px0;
+  color: #121212; /* Cor do nome do presente */
+}
+
+.gift-price {
+  margin: 5px0;
+  color: #75706f; /* Cor do preço do presente */
+}
+
+.gift-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para a página de detalhes do presente */.gift-detail {
+  padding: 20px;
+  background-color: #ffffff; /* Cor de fundo do detalhamento do presente */border-radius: 10px;
+  box-shadow: 0010pxrgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.qr-code {
+  margin: 20px auto;
+  color: rgb(58, 143, 58);
+}
+
+.decorations {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #121212; /* Cor dos pontinhos */border-radius: 50%;
+}
+
+.decoration-top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.decoration-top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.decoration-bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.decoration-bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.copy-button {
+  margin-top: 20px;
+  padding: 15px30px;
+  font-size: 18px;
+  background-color: #48bd3d; /* Cor do botão */color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.copy-button:hover {
+  background-color: #75706f; /* Cor do botão ao passar o mouse */
+}
+
+.mb-way {
+  margin-top: 20px;
+  color: #75706f; /* Cor do texto do MB WAY */
+}
+
+.mb-wayh2 {
+  margin-bottom: 10px;
+}
+
+.homeh2 {
+  text-align: center;
+  color: #2c2c2c;
+  margin-top: 40px;
+}
